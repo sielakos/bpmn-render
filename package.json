@@ -1,0 +1,23 @@
+{
+  "name": "bpmn-render",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sielakos/bpmn-render.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sielakos/bpmn-render/issues"
+  },
+  "homepage": "https://github.com/sielakos/bpmn-render#readme",
+  "dependencies": {
+    "bpmn-js": "^0.21.0",
+    "bpmn-moddle": "^0.14.0"
+  }
+}
