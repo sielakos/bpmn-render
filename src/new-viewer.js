@@ -153,7 +153,7 @@ function renderLabel(label, text) {
         tag: 'div',
         attributes: {
           xmlns: 'http://www.w3.org/1999/xhtml',
-          style: 'font-family: Arial, sans-serif; font-size: 11px; text-align: center; display: table; h overflow: hidden; width: 100%; height: 100%'
+          style: 'font-family: Arial, sans-serif; font-size: 11px; text-align: center; display: table; h overflow: hidden; width: 100%; height: 100%; word-break: break-all;'
         },
         children: [
           {
@@ -251,8 +251,6 @@ function renderGateway(shape, attrs, extras) {
     'stroke-width': '2px',
     fill: 'white'
   };
-
-  console.log(shape);
 
   return {
     tag: 'g',

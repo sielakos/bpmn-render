@@ -4,7 +4,7 @@
     <bpmn:startEvent id="StartEvent_1" name="start event blaha bdsdddsfdfdfdfdfd">
       <bpmn:outgoing>SequenceFlow_1puim3a</bpmn:outgoing>
     </bpmn:startEvent>
-    <bpmn:task id="Task_155ll6q" name="Label 1">
+    <bpmn:task id="Task_155ll6q" name="Label 1 ghghghghghghghghg ">
       <bpmn:incoming>SequenceFlow_1puim3a</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_1bojscf</bpmn:outgoing>
     </bpmn:task>
