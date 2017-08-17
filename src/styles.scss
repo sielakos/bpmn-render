@@ -1,0 +1,13 @@
+.hidden {
+  display: none;
+}
+
+#panels {
+  position: relative;
+
+  & > div {
+    position: absolute;
+    width: 100%;
+    height: 70vh;
+  }
+}

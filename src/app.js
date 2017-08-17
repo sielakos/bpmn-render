@@ -1,10 +1,7 @@
-import BpmnModdle from 'bpmn-moddle';
 import diagram1 from './diagram-1.bpmn';
+import {normal, newOne} from './skeleton';
+import initClassicViewer from './classic-viewer';
+import initNewViwer from './new-viewer';
 
-const moddle = new BpmnModdle();
-
-moddle.fromXML(diagram1, function(err, definitions) {
-  console.log(definitions);
-});
-
-document.body.innerHTML = 'shit';
+initClassicViewer(normal, diagram1);
+initNewViwer(newOne, diagram1);
