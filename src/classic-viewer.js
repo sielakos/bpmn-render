@@ -1,4 +1,4 @@
-import Viewer from 'bpmn-js';
+import Viewer from 'bpmn-js/lib/NavigatedViewer';
 
 export default (container, xml) => {
   const viewer = new Viewer({

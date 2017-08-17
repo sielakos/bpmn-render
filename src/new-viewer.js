@@ -15,7 +15,9 @@ export default (container, xml) => {
       children: getDefs().concat(definitions.diagrams.map(renderElement))
     };
 
-    container.innerHTML = renderSvg(svg);
+    container.innerHTML = `<div style="position: relative; overflow: hidden; width: 100%; height: 100%;">
+      ${renderSvg(svg)}
+    </div>`;
   });
 };
 
