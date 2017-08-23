@@ -26,7 +26,7 @@ export default container => {
   function moveObject(event) {
     event.preventDefault();
 
-  	const delta = event.deltaY;
+  	const delta = -1 * event.deltaY;
     const factor = delta / 400;
 
     const transform = getTransform();
